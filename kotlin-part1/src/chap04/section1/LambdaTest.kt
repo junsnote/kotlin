@@ -18,5 +18,6 @@ fun main() {
     }
 
     result = multi(10, 20)
+    nestedLambda()
     println(result)
 }
