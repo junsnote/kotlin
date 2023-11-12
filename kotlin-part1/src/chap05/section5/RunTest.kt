@@ -2,7 +2,7 @@ package chap05.section5
 
 fun main() {
     data class Person(var name: String, var skills: String)
-    var person = Person("Kildong", "Kotlin")
+    val person = Person("Kildong", "Kotlin")
 
     val returnObj = person.apply{
         this.name = "Sean"
